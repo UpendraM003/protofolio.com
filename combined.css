@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+
+.section1 {
+    background-image: url('Backgroung1.png'); /* Background for section 1 */
+}
+
+.section2 {
+    background-image: url('background2.png'); /* Background for section 2 */
+}
+.section3{
+    background-image: url('background3.png');
+}
+.section4{
+    background-image: url('background4.png');
+}
+.section5{
+    background-image: url('background5.png');
+}
+.section6{
+    background-image: url('background6.png');
+}
+.content{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 35%;
+    color: white;
+}
+.content h1{
+    font-size:50px;
+
+}
+.Home-Link{
+    position: relative;
+
+    top: 2%;
+    left:190vh;
+}
+.Home-Link a{
+    color: white;
+    text-decoration: underline;
+}
+
+.Circle{
+    width: 250px;
+    height: 250px;
+    background-color: azure;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.profile{
+    width: 249px;
+    height: 249px;
+    background-image: url(profile.png);
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.aboutme {
+    position: relative;
+    top: 2%;
+    left: 2%;
+    color: white; /* Change text color to white */
+}
+.aboutme h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.content1{
+    font-size: 20px;
+    position: relative;
+    top: 30%;   
+    left: 0%;
+    color: white;
+}
+.content2{
+    font-size: 20px;
+    position: relative;
+    top: 60%;
+    right: 0%;
+    color: white;
+}
+.experience{
+    position: relative;
+    top: 2%;
+    left: 2%;
+    color: white;
+}
+.experience h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.content3{
+    font-size: 25px;
+    position: relative;
+    top: 20%;
+    left: -10%; 
+    color: white;
+}
+.content4{
+    font-size: 25px;
+    position: relative;
+    top: 40%;
+    left: 15%;
+    color: white;
+}
+.content5{
+    font-size: 25px;
+    position: relative;
+    top: 60%;
+    left: -45%;
+    color: white;
+}
+.education{
+    position: relative;
+    top: 2%;
+    left: 2%;
+    color: white; /* Change text color to white */
+}
+.education h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.content6{
+    font-size: 35px;
+    color: white;
+    position: relative;
+    top: 20%;
+    left: -10%;
+}
+.content7{
+    font-size: 35px;
+    color: white;
+    position: relative;
+    top: 20%;
+    left: 0%;
+}
+.content8{
+    font-size: 35px;
+    color: white;
+    position: relative;
+    top: 20%;
+    right: -15%;
+}
+.hobbies{
+    position: relative;
+    color: white;
+    top: 2%;
+    left: 2%;
+    text-decoration: underline;
+}
+.photography img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 15%;  
+    left: -80%;
+
+}
+.photography p{
+    position: relative;
+    color: white;
+    top: 45%;
+    left: -50%;
+
+}
+.cooking img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 15%;
+    left: 80%;
+}
+.cooking p{
+    position: relative;
+    color: white;
+    top: 45%;
+    left: 110%;
+}
+.hiking img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 15%;
+    left: 250%;
+}
+.hiking p{
+    position: relative;
+    color: white;
+    top: 45%;
+    left: 290%;
+}
+.reading img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 60%;
+    left: -375%;
+}
+.reading p{
+    position: relative;
+    color: white;
+    top: 90%;
+    left: -350%;
+}
+.music img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 60%;
+    left: -225%;
+}
+.music p{
+    position: relative;
+    color: white;
+    top: 90%;
+    left: -190%;
+}
+.volunteering img{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 60%;
+    left: -50%;
+}
+.volunteering p{
+    position: relative;
+    color: white;
+    top: 90%;
+    left: -25%;
+}
+.skills{
+    position: relative;
+    top: 2%;
+    left: 2%;
+    color: white; /* Change text color to white */
+}
+.skills h1{
+    font-size: 45px;
+    text-decoration: underline;
+}
+.skills p{
+    font-size: 25px;
+    
+}
+.Communication h1{
+    position: relative;
+    color: white;
+    font-size: 35px;
+    top: 50%;
+    left: -110%;
+    text-decoration: underline;
+}
+.Communication h2{
+    color: white;
+    position: relative;
+    font-size: 20px;
+    top: 50%;
+    left: -110%;
+}
+.Communication h3{
+    color: white;
+    position: relative;
+    font-size: 20px;
+    top: 30%;
+}
+.contactme img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 65%;
+    left: 1800%;
+}
+/* Add other CSS styles as needed */
